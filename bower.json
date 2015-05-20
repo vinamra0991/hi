@@ -1,0 +1,23 @@
+{
+  "name": "hi",
+  "version": "0.0.0",
+  "authors": [
+    "vinamra.misra <vinamra.misra@servicenow.com>"
+  ],
+  "description": "Hi login screen revamp",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/hi",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.4",
+    "css-reset": "~2.5.1",
+    "prototype.js": "~1.7.1"
+  }
+}

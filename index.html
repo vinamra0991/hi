@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="lib/hi/css-reset/reset.min.css"/>
+    <link rel="stylesheet" href="lib/hi/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/hi/css/heisenberg_all.css"/>
+    <link rel="stylesheet" href="lib/hi/css/styles.css"/>
+</head>
+<body>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Use this form to request a password reset link.
+                        <a class="anchorjs-link" href="#myModalLabel"><span class="anchorjs-icon"></span></a></h4>
+                </div>
+                <div class="modal-body">
+                    <form class="row" role="form">
+                        <div class="input-group col-lg-6 col-lg-offset-3" id="modal-body">
+                            <input id="resetpassword" type="text" class="form-control" name="email" placeholder="Please enter your email."/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer" id="modal-footer">
+                    <button type="button" class="btn btn-default" id="reset-password" onclick="HI.resetPassword()">Reset Password</button>
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Reset Password</button>-->
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./lib/hi/images/servicenow-logo.png" alt="ServiceNow"/>
+                    <span class="v-bar">|</span>HI Customer Service System
+                </a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form id="signin" class="navbar-form navbar-right" role="form">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="username" type="username" class="form-control" name="email" value=""
+                               placeholder="User Name">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input id="password" type="password" class="form-control" name="password" value="" placeholder="Password">
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <a href="" id="forgot-password" class="forgot-password" data-toggle="modal" data-target="#myModal">Forgot passwod?</a>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hi-home row">
+        <div class="hi-home-text text-center">
+            Some Text
+        </div>
+    </div>
+
+    <div class="row wrapper">
+        <div class="first-content">
+            <div class="title text-center">
+                WELCOME TO SERVICENOW
+            </div>
+            <div class="content text-justify">
+                <p> ServiceNow transforms IT by automating and managing IT service relationships across the global
+                    enterprise. Organizations deploy ServiceNow to create a single system of record for IT and automate
+                    manual tasks, standardize processes and consolidate legacy systems. ServiceNow customers use its
+                    extensible platform to create custom applications that evolve the IT service model to service domains
+                    inside and outside the enterprise.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row wrapper">
+        <div class="second-content">
+            <div class="title text-center">
+                THINGS YOU CAN DO IN HI
+            </div>
+            <div class="col-lg-12">
+                <div class="row second-content-row">
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-build.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-deploy.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-discuss.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-learn.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                </div>
+                <div class="row second-content-row">
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-build.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-deploy.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-discuss.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img src="./lib/hi/images/dev-learn.png" alt="Div build" width="100"/>
+                        <p>Create, extend, integrate and explore the platform on your own instance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+    <script src="lib/hi/jquery/dist/jquery.min.js"></script>
+    <script src="lib/hi/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/hi/prototype.js/dist/prototype.min.js"></script>
+    <script src="lib/hi/js/main.js"></script>
+</body>
+</html>
+
+<!--An email with instructions to change your password has been sent.
+Please check your spam folder if you do not find the message in your inbox.-->
