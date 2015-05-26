@@ -59,13 +59,13 @@ body {
 }
 
 .second-content{
-    margin-top: 60px;
     width: 80%;
     margin: auto;
     margin-top: 60px;
 }
 .second-content-row{
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 .wrapper{
     margin-top: 20px;
@@ -76,12 +76,24 @@ body {
     margin-top: 60px;
     width: 80%;
     margin: auto;
-    margin-top: 60px;
 }
 .footer{
     background-color: #000;
     height: 80px;
 }
-#partner, #internal{
+#partner, #internal, #customer{
     display: none;
+}
+.highlighted{
+    font-size: 26px;
+    color: red;
+}
+
+.fourth-content{
+    width: 80%;
+    margin: auto;
+}
+
+.fourth-content > .title {
+    margin-top: 60px;
 }
